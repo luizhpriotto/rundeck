@@ -1,0 +1,32 @@
+by:
+  group: helpdesk
+description: helpdesk
+for:
+  resource:
+  - allow:
+    - read
+  job:
+  - allow:
+    - read
+    - run
+    - kill
+  node:
+  - allow:
+    - read
+    - run
+context:
+  project: '.*'
+
+---
+
+by:
+  group: helpdesk
+description: Allow [read] for project
+for:
+  project:
+  - allow:
+    - read
+    match:
+      name: '.*'
+context:
+  application: rundeck
