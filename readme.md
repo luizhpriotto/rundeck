@@ -2,8 +2,8 @@
 
 Ultimos comandos utilizados:
 
- cd /tmp/
-  376  ls
+ cd /tmp/<br />
+  376  ls<br />
   377  rpm -i rundeck-2.10.5-1.47.GA.noarch.rpm rundeck-config-2.10.5-1.47.GA.noarch.rpm
   378  cd /etc/rundeck/
   379  l
@@ -142,9 +142,9 @@ Ultimos comandos utilizados:
   512  /etc/init.d/rundeckd restart
   513  tail -f /var/log/rundeck/service.log
   514  ls
-  515  vim jaas-l
-  516  vim jaas-ldap.conf
-  517  vim jaas-loginmodule.conf
+  515  vim jaas-l <br />
+  516  vim jaas-ldap.conf <br />
+  517  vim jaas-loginmodule.conf <br />
   518  vim rundeck-config.properties
   519  vim profile
   520  source profile
